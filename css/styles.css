@@ -395,6 +395,18 @@ section {
   text-align: center;
 }
 
+.social-links-list {
+  margin: 0;
+  padding: 0;
+}
+
+/* секція клієнти */
+
+.clients-list {
+  margin: 0;
+  padding: 0;
+}
+
 /* footer */
 .footer {
   max-width: 1600px;
@@ -477,11 +489,11 @@ section {
   height: 44px;
 }
 
-.item-icon {
+/* .item-icon {
   display: block;
   width: 44px;
   height: 44px;
-}
+} */
 
 /* Стилі портфоліо */
 
