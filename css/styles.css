@@ -172,24 +172,38 @@ section {
   color: var(--interactive-color);
 }
 
+.link:hover.contacts-icon {
+  fill: currentColor;
+}
+
+.contacts-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.contacts-list .link {
+  display: flex;
+  align-items: center;
+}
+
 /* section Hero */
 
 .hero {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 
   height: 600px;
   max-width: 1600px;
-  padding: 200px 452px;
   margin-right: auto;
   margin-left: auto;
+  padding: 0;
 
   background-color: #2f303a;
   background-image: linear-gradient(
       to right,
-      rgba(0, 0, 0, 0),
+      rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/fon.jpg);
@@ -200,7 +214,7 @@ section {
 
 .hero-title {
   display: inline-block;
-  margin: 0;
+  margin: 30px;
 
   color: var(--white-text-background-color);
   font-family: inherit;
