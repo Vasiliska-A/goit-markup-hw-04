@@ -449,10 +449,51 @@ section {
 }
 
 /* секція клієнти */
+.clients-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  color: var(--headers-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
 
 .clients-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 0;
   padding: 0;
+}
+
+.company-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--link-normal-color);
+  border-radius: 4px;
+  color: var(--link-normal-color);
+}
+
+.company-logo:hover,
+.company-logo:focus {
+  color: var(--interactive-color);
+  border: 1px solid var(--interactive-color);
+}
+
+.company-icon {
+  fill: currentColor;
+}
+
+.client:hover,
+.client:focus {
+  color: var(--interactive-color);
 }
 
 /* footer */
